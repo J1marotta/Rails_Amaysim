@@ -15,44 +15,75 @@
  */
 @import "bootstrap";
 
+*{
+  font-family:sans-serif;
+}
 
+//makes the background orange for the nav bar
 .bg-orange {
   background-color: #FF5500;
   font-size: 1.5em;
 }
 
-.title {
-  font-size: 1.25em;
+//fix the nav bar about padding
+.padding {
+  padding: .5rem 1rem;
 }
 
+// adjust the size of title
+.title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
 
+//white text for menu items
 .text-white
 {
   color: white;
 }
 
+//purple background colour
 .purple
 {
   background-color: #510063;
 }
 
-.hpurple :hover
+//purple for the menu highlight
+.hpurple:hover
 {
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: #510063;
 }
 
-
-.padding {
-  padding: .5rem 1rem;
+// lighter purple for menu highlight
+.highlight:hover {
+  background-color: #610276;
 }
 
-.foopx
-{
-  // min-height: 400px;
+// round jumbo
+.round-button {
+  border-radius: 20px;
+  border-color: #ff5500;
+  padding-left: 15px;
+  font-size: .9em;
+
+}
+
+.underjumbo {
+  font-size: .75em;
+  padding-left: 15px;
+
+}
+
+//jumbo text sizing
+.jumbotext {
+  padding-left: 15px;
+  font-size: 2.5em;
+  font-weight:bold;
 }
 
 
-.edges {
-  
+// article section
+.article-row {
+  max-height: 200px;
 }
