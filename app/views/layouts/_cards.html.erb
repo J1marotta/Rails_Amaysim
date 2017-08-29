@@ -1,36 +1,66 @@
-<article class="article">
-  <div class="container">
-    <div class="row article-row">
+<div class="container">
+  <div class="row">
+    <!--manage the bstrap columns  -->
+    <div class="col-md-4">
 
-      <div class="col-md-4">
-        <div class="col-md-auto left-icon">
-          <%=image_tag("left.png", size: "50x50" , alt: "Amaysim")%>
-          <p class="article title">no lock-in contracts</p>
-          <p class="article">Freedom to switch your plan or cancel at anytime.</p>
+      <div class="card-deck">
+        <!-- left card  -->
+        <div class="card bg-orange-card-left text-white">
+          <div class="container">
+            <h4 class="card-title">sim-only mobile plans</h4>
+            <div class="card-body">
+              <p class="card-text">Unlimited standard talk & text with heaps of data for use in Oz..</p>
+            </div>
+          </div>
+          <!--left image  -->
+          <%=image_tag("skateboardleft.png", size: "345x185" , alt: "sim-only", class: "card-image img-fluid")%>
+          <div class="card-footer">
+            <small class="text-muted">mobile plans</small>
+          </div>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="col-md-auto middle-icon">
-          <%=image_tag("middle.png", size: "50x50" , alt: "Amaysim")%>
-
-          <p class="article title">simple to join</p>
-          <p class="article">
-            Quick and easy online sign-up, we’ll take care of all the fiddly bits.</p>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="col-md-auto right-icon">
-          <%=image_tag("right.png", size: "50x50" , alt: "Amaysim")%>
-
-          <p class="article title">easy to manage</p>
-          <p class="article">
-            Download our app or manage your plans online.</p>
-        </div>
-      </div>
-
     </div>
+      <!-- boot strap column -->
+      <div class="col-md-4">
+        <!-- middle card  -->
+        <div class="card-deck">
+          <div class="card bg-orange-card-middle text-white">
+            <!--container for text   -->
+            <div class="container">
+              <h4 class="card-title">nbn broadband plans</h4>
+              <div class="card-body">
+                <p class="card-text">Unlimited data with superfast speeds. No lock-in contracts.</p>
+              </div>
+            </div>
+            <!--middle image  -->
+            <%=image_tag("housemiddle.png", size: "345x185" , alt: "sim-only", class: "card-image img-fluid")%>
 
+            <div class="card-footer">
+              <small class="text-muted">nbn plans</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card-deck">
+          <div class="card bg-orange-card-right text-white">
+            <!--container for text   -->
+            <div class="container">
+              <h4 class="card-title">data-only plans</h4>
+              <div class="card-body">
+                <p class="card-text">Mobile broadband for your tablets and devices, for use in Oz.</p>
+              </div>
+            </div>
+            <!--right card image  -->
+            <%=image_tag("padright2.png", size: "345x185" , alt: "sim-only", class: "card-image img-fluid")%>
+
+            <div class="card-footer">
+              <small class="text-muted">data only plans</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
-</article>

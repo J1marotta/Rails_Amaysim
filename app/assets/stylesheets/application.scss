@@ -42,6 +42,8 @@
   color: white;
 }
 
+
+
 //purple background colour
 .purple
 {
@@ -60,7 +62,7 @@
   background-color: #610276;
 }
 
-// round jumbo
+// round jumbo button
 .round-button {
   border-radius: 20px;
   border-color: #ff5500;
@@ -82,8 +84,41 @@
   font-weight:bold;
 }
 
-
-// article section
-.article-row {
-  max-height: 200px;
+//card-title margins
+.card-title {
+  margin-top: 2em;
 }
+
+
+//orange for left card
+.bg-orange-card-left {
+  background-color: #FE5500;
+}
+
+//orange for middle card
+.bg-orange-card-middle {
+  background-color: #FF6700;
+}
+
+//orange for right card
+.bg-orange-card-right {
+  background-color: #FE7700;
+}
+
+
+//compare button
+.compare-button {
+  text-align: right;
+  margin: auto;
+}
+
+//whitespace
+.whitespace {
+  background-color: fff;
+  min-height: 1.4em;
+}
+
+//white-background
+.bg-white {
+  background-color: fff;
+  }
