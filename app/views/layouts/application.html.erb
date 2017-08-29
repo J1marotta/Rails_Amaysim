@@ -9,8 +9,14 @@
   </head>
 
   <body>
-    <%= link_to 'Help', help_mobile_path %>
-    <%= link_to 'Help URL', help_mobile_url %>
-    <%= yield %>
+
+
+
+    <%= render 'layouts/nav' %>
+
+    <div class="container-fluid">
+      <%= yield %>
+    </div>
+
   </body>
 </html>

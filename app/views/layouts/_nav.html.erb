@@ -1,0 +1,43 @@
+<!-- _nav.html.erb -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-orange">
+  <div class="container">
+    <a class="navbar-brand text-white title" href="/">amaysim</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+
+        <!--First drop down   -->
+        <li class="nav-item dropdown hpurple">
+          <a class="nav-link dropdown-toggle text-white hpurple" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plans
+          </a>
+          <div class="dropdown-menu text-white purple" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item text-white purple" href="/plans/mobile-plans">Mobile Plans</a>
+            <a class="dropdown-item text-white purple" href="/plans/nbn">NBN</a>
+            <a class="dropdown-item text-white purple" href="/plans/data">Data Only plans</a>
+          </div>
+        </li>
+            <!--Second drop down   -->
+        <li class="nav-item dropdown text-white hpurple">
+          <a class="nav-link dropdown-toggle text-white" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu text-white purple" aria-labelledby="navbarDropdownMenuLink">
+            <%= link_to "who we are", about_who_path, class: 'dropdown-item text-white purple' %>
+            <%= link_to "why amaysim", about_why_path, class: 'dropdown-item text-white purple' %>
+            <%= link_to "check coverage", about_check_coverage_path, class: 'dropdown-item text-white purple' %>
+          </div>
+        </li>
+
+        <!--Help page  -->
+        <li class="nav-item hpurple">
+          <%= link_to "help", help_mobile_path, class: 'dropdown-item text-white hpurple padding' %>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

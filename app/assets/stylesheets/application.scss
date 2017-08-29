@@ -14,3 +14,45 @@
  *= require_self
  */
 @import "bootstrap";
+
+
+.bg-orange {
+  background-color: #FF5500;
+  font-size: 1.5em;
+}
+
+.title {
+  font-size: 1.25em;
+}
+
+
+.text-white
+{
+  color: white;
+}
+
+.purple
+{
+  background-color: #510063;
+}
+
+.hpurple :hover
+{
+  border-radius: 5px;
+  background-color: #510063;
+}
+
+
+.padding {
+  padding: .5rem 1rem;
+}
+
+.foopx
+{
+  // min-height: 400px;
+}
+
+
+.edges {
+  
+}
