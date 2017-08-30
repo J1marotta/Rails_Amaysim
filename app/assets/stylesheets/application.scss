@@ -114,11 +114,16 @@
 
 //whitespace
 .whitespace {
-  background-color: fff;
+  background-color: #fff;
   min-height: 1.4em;
 }
 
 //white-background
 .bg-white {
-  background-color: fff;
-  }
+  background-color: #fff;
+}
+
+// rounding for orange box
+.rounding {
+  border-radius: 2%;
+}
